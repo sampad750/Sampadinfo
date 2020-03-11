@@ -1,0 +1,83 @@
+/*
+Theme Name: SampadInfo
+Theme URI: https://sampadinfo.com
+Author: Sampad Debnath
+Author URI: https://sampadinfo.com/
+Description: Personal simple portfolio template for sampadinfo.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sampadinfo
+Tags: right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Blog page Tag widget custom css */
+.blog_right_sidebar .widget_tag_cloud .tagcloud{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.blog_right_sidebar .widget_tag_cloud .tagcloud a {
+    display: inline-block;
+    border: 1px solid #eeeeee;
+    background: #fff;
+    padding: 4px 20px;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    transition: all 0.3s ease 0s;
+    color: #888888;
+    font-size: 13px !important;
+}
+.blog_right_sidebar .widget_tag_cloud .tagcloud a:hover {
+    background: #1345e6;
+    color: #fff;
+}
+
+/* Blog pagination custom css */
+.blog-pagination .page-numbers {
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    margin-left: -1px;
+    line-height: 45px;
+    width: 45px;
+    height: 45px;
+    border-radius: 0 !important;
+    color: #8a8a8a;
+    border: 1px solid #f0e9ff;
+    margin-right: 10px;
+}
+.blog-pagination .page-numbers i, .blog-pagination span.page-numbers {
+    font-size: 13px;
+}
+.blog-pagination .page-numbers:hover {
+    background-color: #fbf9ff;
+}
+.blog-pagination .page-numbers.current {
+    background-color: #fbf9ff;
+    border-color: #f0e9ff;
+    color: #888888;
+}
+.blog-pagination .page-numbers:last-child {
+    margin-right: 0;
+}
+/* Footer menu custom css */
+.footer_area ul li a{
+    color: #fff !important;
+}
+/* Comments form submit button custom css */
+.comment-form .button-contactForm{
+    border: none;
+}
+/* Elementor portfolio filter widget custom css */
+.short_info > p > a{
+    color: #fff;
+}
+/* Main menu custom css */
+.m_l_140{
+    margin-left: 0 !important;
+}
